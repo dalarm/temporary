@@ -1,0 +1,288 @@
+.home{
+    position: absolute;
+    width:70%;
+    height: 100%;
+    border: 1px solid black;
+    background: url(/assets/images/background.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+
+
+/*Better method for phones*/
+@media (max-width: 400px) and (max-height: 640px){
+    .home{
+        width: 100%;
+    }
+}
+
+@media (max-width: 420px) and (min-height:642px) and (max-height: 820px){
+    .home{
+        width: 100%;
+    }
+}
+
+
+
+/*For Chrome specific*/
+/*Most phones*/
+/*
+@media (max-height: 658px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) 
+{ 
+    .home{
+        margin-top: 179% !important;
+        width: 100%;
+    }
+}
+*/
+/*For the nexus 5 phone*/
+
+/*
+@media (min-height: 660px) and (max-height: 660px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) 
+{ 
+    .home{
+        margin-top: 160% !important;
+        width: 100%;
+    }
+}
+*/
+
+/*iPhone X*/
+
+/*
+@media (min-height: 812px) and (max-height: 812px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) 
+{ 
+    .home{
+        margin-top: 216% !important;
+        width: 100%;
+    }
+}
+*/
+
+/*for iPads*/
+@media (min-height: 1020px) and (max-height: 1110px) and (min-width: 768px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) 
+{ 
+    .home{
+        margin-top: 133% !important;
+        width: 100%;
+    }
+}
+
+
+/*End of Chrome-specific*/
+
+/*For nokia phone*/
+
+/*
+@media (max-width: 320px) and (max-height: 533px) {
+    .home{
+        margin-top: 167% !important;
+    }
+}
+*/
+
+/*Most phones*/
+
+/*Samsung Galaxy s8*/
+/*
+@media(max-width: 598px) and (min-width: 360px) {
+    .home{
+        margin-top: 206%;
+        width: 100%;
+    }
+}
+*/
+
+
+
+/*For iPhoneX*/
+
+/*
+@media (min-width: 375px) and (max-width: 375px) and (min-height: 812px) {
+    .home{
+        margin-top: 217% !important;
+        width: 100%;
+    }
+}
+*/
+/*For iPad*/
+@media (min-width: 768px) and (max-width: 768px) and (min-height: 1024px){
+    .home{
+        margin-top: 133%!important;
+    }
+}
+
+/*
+@media (max-width: 768px) and (max-height: 736px) {
+    .home{
+        margin-top: 178%;
+        width:100%; 
+    }
+}
+*/
+/*
+@media (min-width: 768px) and (max-width: 770px) and (min-height: 720px) {
+    .home{
+        margin-top: 113%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 400px) and (max-height: 640px) {
+    .home{
+        margin-top: 167%;
+    }
+}
+*/
+@media (min-width:900px) and (min-height: 1080px) {
+    .home{
+        width:60%;
+    }
+}
+
+/*Half-laptop voews*/
+@media (min-width: 600px) and (max-width: 683px) and (min-height: 720px) and (max-height: 740px) {
+    .home{
+        margin-top: 113% !important;
+        width: 100%;
+    }
+}
+
+/*400x600 half-sized*/
+
+@media (min-width: 396px) and (max-width: 450px) and (min-height: 600px) and (max-height: 600px){
+    .home{
+        margin-top:150%!important;
+    }
+}
+
+/*1280x800 640x800*/
+@media (min-width: 604px) and (max-width: 700px) and (min-height: 800px) and (max-height: 850px) {
+    .home{
+        margin-top:125%;
+        width: 100%;
+    }
+}
+
+/*1440x900 720x900*/
+@media(min-width: 600px) and (max-width:730px) and (min-height: 900px) and (max-height: 1000px)
+{
+    .home{
+        margin-top:150%;
+        width: 100%;
+    }
+}
+
+
+/*1024x768*/
+/*512x768*/
+
+@media (min-width:512px) and  (max-width: 598px) and (min-height: 768px) and (max-height: 768px) {
+    .home{
+        margin-top: 150%;
+    }
+}
+
+
+/*1280x1024, 640x1024*/
+@media (min-width: 610px) and (max-width: 640px) and (min-height:1024px) and (max-height:1024px){
+    .home{
+        margin-top:160%;
+        width: 100%;
+    }
+}
+
+
+/*1400x1050 700x1050*/
+
+@media (min-width: 660px) and (max-width: 740px) and (min-height: 1050px) and (max-height: 1050px){
+    .home{
+        margin-top: 150%;
+        width:100%;
+    }
+}
+
+
+/*1366x768 683x768*/
+@media (min-width:599px) and (max-width: 766px) and (min-height: 768px) and (max-height: 768px){
+.home{
+    margin-top:113%;
+    width:100%;
+}
+}
+
+
+
+/*320x480*/
+@media (min-width: 320px) and (max-width:340px) and (min-height: 480px) and (max-height: 480px){
+    .home{
+        margin-top: 150%!important;
+    }
+
+}
+
+
+/*1440x900 720x900*/
+
+@media(min-width: 600px) and (max-width:730px) and (min-height: 900px) and (max-height: 1000px)
+{
+    .home{
+         margin-top:125%!important;
+    }
+}
+
+@media (min-height:800px) and (max-height:800px) and (min-width:512px) and (max-width:524px){
+    .home{
+        margin-top: 156%;
+        width:100%;
+    }
+}
+
+
+/*370x640*/
+
+/*
+@media (min-height:640px) and (max-height:640px) and (min-width:370px) and (max-width: 380px) {
+    .home{
+        margin-top:168%!important;
+    }
+}
+*/
+
+/*390~400*/
+
+/*
+@media (min-height:640px) and (max-height:640px) and (min-width:390px) and (max-width: 400px) {
+    .home{
+        margin-top:158%!important;
+    }
+}
+
+@media (min-height:640px) and (max-height:640px) and (min-width:420px) and (max-width: 434px) {
+    .home{
+        margin-top:146%!important;
+    }
+}
+*/
+/*Galaxy Phones*/
+
+
+/*
+@media (min-height:626px) and (max-height:636px) and (min-width:370px) and (max-width: 380px) {
+    .home{
+        margin-top:175%!important;
+    }
+}
+
+@media (min-height:624px) and (max-height:610px) and (min-width:370px) and (max-width: 380px) {
+    .home{
+        margin-top:170%!important;
+    }
+}
+
+@media (min-height: 544px) and (max-height:550px) and (min-width:370px) and (max-width: 380px) {
+    .home{
+        margin-top:152%!important;
+    }
+}
+
+*/

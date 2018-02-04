@@ -1,0 +1,15 @@
+<div id="board">
+    <div class="icon">
+        <a (click)='changeBG()' [routerLink]="getLink()" [href]="getLink()"><img [src]="getImage('note')" (mouseenter)="toggle()" (mouseleave)="toggle()"></a>
+    </div>
+    <div class="iconC">
+            <a (click)='changeBG()' [routerLink]="getLinkC()" [href]="getLinkC()"><img [src]="getImage('cat')"></a>
+    </div>
+
+    <!--
+    <div class="post">
+        <img [src]="getImage('postb')">
+        <p id="quote"><b>Fav Quote:</b> "Take your time, <br>but don’t waste your time.<br> There’s a difference."</p>
+    </div>
+-->
+</div>

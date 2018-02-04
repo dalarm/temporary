@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  
+  <!-- Bootstrap CDN --> 
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <!-- Font Awesome Icons CDN --> 
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <!-- Amaranth -->
+  <link href="https://fonts.googleapis.com/css?family=Amaranth|Handlee|Indie+Flower" rel="stylesheet"> 
+  
+  
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <app-root></app-root>
+</body>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <!-- Github Pages hack to allow SPA refresh without receiving 404. -->
+  <script>
+    (function () {
+      // Retrieve the URL the user was trying to access when receiving the 404.
+      var redirect = sessionStorage.redirect;
+      // Remove the URL from sessionStorage.
+      delete sessionStorage.redirect;
+      // Check if we actually need to redirect.
+      if (redirect && redirect != location.href) {
+        // We need to redirect to the URL the user was trying to access.
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
+<!-- /Github Pages hack. -->
+    <script>
+    $('#profile').carousel({
+      interval: 3000
+    })
+
+    $('#projects').carousel({
+      interval: false
+    })
+
+    screen.orientation.lock('portrait');
+    </script>
+
+</html>
